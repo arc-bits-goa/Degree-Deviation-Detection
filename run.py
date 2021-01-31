@@ -1,0 +1,11 @@
+import os
+os.system("python3 coursetype.py data/coursetype.xlsx ")
+os.system("python3 check_absence_in_coursetype_excel.py")
+os.system("python3 noofcourse.py data/noofcourse.xls")
+os.system("python3 makesort.py ")
+os.system("python3 studentdata.py data/sorted.xlsx ")
+os.system("python3 jsontoxls_pre.py ")
+os.system("python3 logic.py ")
+os.system("python3 jsontoxls_final.py ")
+os.system("python3 find_lagging_students.py")
+os.system("python3 suggest_courses.py")
